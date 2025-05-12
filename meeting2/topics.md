@@ -1,0 +1,11 @@
+- recap: types, if, for loops, string and list methods, decomposition
+- recap exercise: can_drive
+- iterators - for loop - iterate over sequence
+- enumerate
+- zip
+- functions
+- exercise - israeli id
+- while loop
+- exercise - sum_until_zero
+- dictionary
+- exercise - count_occurences, group_car_colors
