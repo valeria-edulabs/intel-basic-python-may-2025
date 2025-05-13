@@ -1,7 +1,8 @@
 # **Exercise:**
 # Write a function `sum_until_zero` that takes a list of integers as input and
 # returns the sum of the numbers, stopping when a `0` is encountered in the list.
-# The function should return the sum of all numbers before the first `0` (if a `0` exists).
+# The function should return the sum of all numbers before the first `0`
+# (if a `0` exists).
 #
 # **Example:**
 # print(sum_until_zero([1, 2, 3, 0, 5]))   # Output: 6
