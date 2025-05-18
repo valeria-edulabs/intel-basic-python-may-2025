@@ -1,5 +1,9 @@
-- modules and packages
-- pip
-- using apis
-- files?
+- recap - dictionaries + functions
+  - solve together: group_car_colors
+  - exercise: count_occurrences
+- modules and packages, pip
+- known modules - math, datetime, numpy, pandas
+- dates - datetime
+- files
+- apis
 - streamlit

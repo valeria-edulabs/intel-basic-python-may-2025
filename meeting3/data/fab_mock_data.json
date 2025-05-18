@@ -1,6 +1,4 @@
-from pprint import pprint
-
-fab_data = {
+{
   "fabLocation": "Fab 28, Kiryat Gat, Israel",
   "timestamp": "2024-07-02T08:52:00Z",
   "equipment": {
@@ -51,13 +49,3 @@ fab_data = {
     }
   ]
 }
-
-# print the date of last maintenance schedule ("2024-07-05")
-# print particleContamination from defects from yield data (12)
-# print all the alerts for Etch_Tool_03 ()
-# update all the descriptions in maintenanceSchedule to upper case
-
-for elem in fab_data["maintenanceSchedule"]:
-  elem["description"] = elem["description"].upper()
-
-pprint(fab_data)
