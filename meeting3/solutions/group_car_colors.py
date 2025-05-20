@@ -8,8 +8,8 @@
 # The function should return a dictionary where the keys are the car models and the values are lists of colors.
 
 # Example input:
-models = ["Mazda 3", "Toyota Yaris", "Volvo S40", "Mazda 2", "Toyota Yaris", "Volvo S40"]
-colors = ["red", "white", "red", "blue", "black", "red"]
+# models = ["Mazda 3", "Toyota Yaris", "Volvo S40", "Mazda 2", "Toyota Yaris", "Volvo S40"]
+# colors = ["red", "white", "red", "blue", "black", "red"]
 
 
 # Example output:
@@ -27,9 +27,9 @@ colors = ["red", "white", "red", "blue", "black", "red"]
 # The keys are car model names.
 # The values are lists of unique colors for each model, sorted alphabetically.
 
-def group_car_colors(models, colors):
+def group_car_colors(models: list[str], colors: list[str]) -> dict[str, list[str]]:
     # Initialize an empty dictionary to store the grouped colors by model
-    car_colors = {}
+    car_colors: dict[str, list[str]] = {}
 
     # Loop through the models and colors simultaneously
     for model, color in zip(models, colors):
@@ -43,7 +43,7 @@ def group_car_colors(models, colors):
 
     # Sort the colors alphabetically for each model
     for model in car_colors:
-        car_colors[model].sort()
+        car_colors[model].sort(reverse=False)
 
     return car_colors
 
@@ -54,3 +54,21 @@ colors = ["red", "white", "red", "blue", "black", "red"]
 
 result = group_car_colors(models, colors)
 print(result)
+
+
+# def group_car_colors(models: list[str], colors: list[str]) -> dict[str, str]:
+#     car_colors = {}
+#
+#
+#
+#     return car_colors
+
+
+#
+# a = (2,3)
+# b, c = (2,3 )
+#
+# l1 = [1,2,3,55]
+# 55 in l1
+# "a" in "apple"
+# "a" in {"a": 345, "b":76}
